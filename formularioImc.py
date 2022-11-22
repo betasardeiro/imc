@@ -17,7 +17,7 @@ def calculo():
             return 'sobrepeso'
         else:
             return 'obesidade'
-    return render_template("imc2.html",imc=imc)
+    return render_template("imc.html",imc=imc)
 
 
 if __name__ == "__main__":
